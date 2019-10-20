@@ -33,7 +33,7 @@ def create_api():
         return api
     except Exception as error:
         logger.error("Error during authentication: {}".format(error))
-        logger.info('Please ensure the keys.py file is present and contains all keys')
+        logger.info('Please ensure ENV variables are set correctly on the host system or in the dockerfile')
         sys.exit('Exiting..')
 
 def get_keyword():
