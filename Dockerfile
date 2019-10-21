@@ -1,4 +1,5 @@
-FROM python:3.7
+FROM python:3.7-alpine
+RUN apk add --no-cache --update gcc build-base
 WORKDIR /bots
 COPY config.py config.py
 COPY twitter_bot.py twitter_bot.py
