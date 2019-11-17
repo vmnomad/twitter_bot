@@ -2,7 +2,7 @@
 
 This bot will use configured keyword to like and retweet the tweets that contain the keyword
 
-It was built Tweepy and following this guide: `https://realpython.com/twitter-bot-python-tweepy/`
+It was built Tweepy and following this [guide](https://realpython.com/twitter-bot-python-tweepy/)
 
 The logic of the code int this blog post was slightly updated to avoid ignoring any retweets
 
